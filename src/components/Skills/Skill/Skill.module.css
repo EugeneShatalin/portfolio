@@ -1,0 +1,15 @@
+.skill {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+.skill img {
+    width: 150px;
+}
+
+.skill h3 {
+    font-size: 30px;
+}

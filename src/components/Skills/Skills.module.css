@@ -1,0 +1,26 @@
+.skills {
+    height: 100vh;
+    background-color: #5cff43;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+.mySkills {
+    height: 150px;
+}
+
+.skillsBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mySkills h3 {
+    font-size: 50px;
+}
