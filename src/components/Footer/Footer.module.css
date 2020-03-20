@@ -1,4 +1,25 @@
 .footer {
-height: 100vh;
+    height: 35vh;
     background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    border: 1px solid;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h3 {
+    font-size: 30px;
+}
+.footer img {
+    width: 70px;
+    height: 70px;
 }

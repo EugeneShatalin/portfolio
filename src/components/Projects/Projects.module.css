@@ -1,4 +1,27 @@
 .projects {
-height: 100vh;
+    height: 100vh;
+    min-height: 600px;
     background-color: #fff16c;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.container {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+.mySkills {
+    height: 150px;
+}
+
+.skillsBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mySkills h3 {
+    font-size: 50px;
 }
