@@ -1,8 +1,11 @@
+
 .header {
     height: 70px;
     background-color: #631C23;
     display: flex;
     justify-content: center;
+    width: 100%;
+
 }
 
 .container {
@@ -10,14 +13,4 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.nav {
-    width: 360px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header a {
-    color: white;
 }

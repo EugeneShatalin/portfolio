@@ -1,10 +1,10 @@
 .projects {
-    height: 100vh;
-    min-height: 600px;
+    min-height: 100vh;
     background-color: #fff16c;
     display: flex;
     justify-content: center;
-    padding: 50px 0;
+    padding: 50px;
+    width: 100%;
 }
 
 .container {
@@ -13,15 +13,29 @@
     width: 80%;
 }
 
-.mySkills {
+.myProjects {
     height: 150px;
 }
 
-.skillsBlock {
+.projectsBlock {
     display: flex;
     justify-content: space-between;
 }
 
-.mySkills h3 {
+.myProjects h3 {
     font-size: 50px;
+}
+
+@media all and (max-width: 700px) {
+    .projectsBlock {
+        flex-direction: column;
+
+    }
+
+    .myProjects h3 {
+        font-size: 30px;
+    }
+    .myProjects {
+        height: 50px;
+    }
 }

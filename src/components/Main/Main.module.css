@@ -1,20 +1,22 @@
 .main {
-    height:100vh;
-    min-height: 600px;
+    min-height:100vh;
     background-color: #ff9dff;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .container {
     width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .greeting {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .photo {

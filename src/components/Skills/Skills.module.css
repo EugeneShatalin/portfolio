@@ -1,6 +1,6 @@
 .skills {
-    height: 100vh;
-    min-height: 600px;
+    width: 100%;
+    min-height: 100vh;
     background-color: #5cff43;
     display: flex;
     justify-content: center;
@@ -11,17 +11,34 @@
     flex-direction: column;
     text-align: center;
     width: 80%;
+    align-items: center;
 }
 
 .mySkills {
-    height: 150px;
+    height: 200px;
 }
 
 .skillsBlock {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .mySkills h3 {
     font-size: 50px;
+}
+
+@media all and (max-width: 700px) {
+    .skillsBlock {
+        flex-direction: column;
+
+    }
+
+    .mySkills h3 {
+        font-size: 30px;
+    }
+
+    .mySkills {
+        height: 50px;
+    }
 }

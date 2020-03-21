@@ -1,12 +1,12 @@
 .footer {
-    height: 35vh;
+    min-height: 35vh;
+    width: 100%;
     background-color: gold;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
-    border: 1px solid;
+    padding: 50px;
 }
 .container {
     width: 80%;
@@ -16,10 +16,23 @@
     justify-content: space-between;
     align-items: center;
 }
-h3 {
+.footer h3 {
     font-size: 30px;
 }
 .footer img {
     width: 70px;
     height: 70px;
+}
+.images {
+    margin-bottom: 20px;
+}
+@media all and (max-width: 700px) {
+    .footer h3 {
+        font-size: 25px;
+    }
+
+    .footer img {
+        width: 40px;
+        height: 40px;
+    }
 }

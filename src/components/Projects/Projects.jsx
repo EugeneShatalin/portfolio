@@ -7,10 +7,10 @@ function Projects() {
   return (
     <div className={s.projects}>
       <din className={s.container}>
-        <div className={s.mySkills}>
+        <div className={s.myProjects}>
           <h3>Мои работы</h3>
         </div>
-        <div className={s.skillsBlock}>
+        <div className={s.projectsBlock}>
           <Project/>
           <Project/>
         </div>

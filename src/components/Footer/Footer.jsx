@@ -11,7 +11,7 @@ function Footer() {
     <div className={s.footer}>
       <div className={s.container}>
           <h3>Шаталин Евгений</h3>
-        <div>
+        <div className={s.images}>
           <img src={img1} alt=""/>
           <img src={img2} alt=""/>
           <img src={img3} alt=""/>
